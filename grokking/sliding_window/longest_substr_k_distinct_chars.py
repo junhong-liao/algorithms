@@ -77,4 +77,4 @@ def longest_substr_with_k_distinct_chars(s: str, k: int):
                 # while loop doesnt activate if things are okay
 
                 max_length = max(max_length, end - start + 1)
-             return max_length
+            return max_length
