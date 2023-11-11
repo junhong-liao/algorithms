@@ -14,7 +14,4 @@ def count_rotations_optimized(arr: list[int]) -> int:
     for num in arr:
         # subtract one, because we don't want to count the number itself.
         count += rotations.get(str(num), 0) - 1
-    return count
-
-
-    
+    return count    
